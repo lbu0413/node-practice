@@ -1,0 +1,14 @@
+
+HTTP/ HTTPS
+
+
+HTTP
+Hypertext Transfer Protocol
+
+- request와 response의 protocol 이라고도 볼 수 있다.
+
+- client는 server에게 요청을 하게되고 서버는 client에게 응답을 해준다.
+
+- client가 특정한 url에 접속을 하게되면 해당 서버는 그 url에 맞는 html 파일을 전송함으로써 응답을 한다.
+
+- 혹은 client가 JSON 파일을 요청하게 되면 서버는 그에 맞는 JSON 파일로 응답을 해준다.
