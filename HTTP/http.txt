@@ -12,3 +12,9 @@ Hypertext Transfer Protocol
 - client가 특정한 url에 접속을 하게되면 해당 서버는 그 url에 맞는 html 파일을 전송함으로써 응답을 한다.
 
 - 혹은 client가 JSON 파일을 요청하게 되면 서버는 그에 맞는 JSON 파일로 응답을 해준다.
+
+
+HTTPS
+Hypertext Transfer Protocal Secure
+- 57.1% 이상이 사용중이다
+- HTTPS는 HTTP와 달리 암호화가 되어서 조금 더 안정성을 보장한다
