@@ -1,0 +1,27 @@
+1. Stateless Protocol
+- 클라이언트가 서버에게 요청을 했을때
+- 각 각의 요청은 서로 연결이 되어있지 않다.
+- HTTP 요청들은 각 각 상태가 없다.
+
+2. Sessions & Cookies
+- 예전에는 클라이언트가 서버에서 로그인 요청을 하면,
+서버에서 로그인에 대한 정보를 포함한 header를 클라이언트에게 보내준다.
+- headers안에 Set-Cookie라는 토큰을 포함할 수 있다.
+- 그리고 클라이언트가 다음에 다른 요청을 할때 쿠키를 다시 넣어서 서버에 요청을 한다.
+- 서버는 쿠키를 보고 클라이언트를 기억할 수 있게 됨.
+
+
+Headers
+
+- Standard
+    Authorization
+    User-Agent
+    Cache-Control
+    Message body info
+        - Content-Length
+        - Content-Type
+        - Content-Language
+- Custom
+    ex) x-auth (이제는 사용하지 않음)
+    domain-key
+    domain.key 를 사용한다.

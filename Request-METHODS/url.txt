@@ -1,0 +1,58 @@
+URL
+- Uniform Resource Locator
+- 특정한 리소스의 경로
+
+
+Request Methods
+
+GET - get
+POST - create
+PUT - replace
+DELETE - delete 
+PATCH - replace partially
+HEAD - get without body
+OPTIONS - all supported methods for URL
+TRACE - echoes the received request 
+
+
+GET
+200 OK
+401 Unauthorized
+403 Forbidden (admin)
+404 Not Found
+405 Method Not Allowed 
+
+POST
+201 Created
+401 Unauthorized
+403 Forbidden
+404 Not Found
+409 Conflict
+
+PUT DELETE PATCH
+200 OK
+204 No Content
+403 Forbidden
+404 Not Found
+405 Method Not Allowed
+
+HEAD OPTIONS TRACE
+201 OK
+401 Unauthorized
+403 Forbidden
+404 Not Found
+405 Method Not Allowed
+
+
+
+GET HEAD OPTIONS TRACE 
+- 읽기전용 메소드
+- 읽기전용 메소드들은 보통 SAFE operation이다
+- Idempotent
+    동일한 요청을 여러번 했을때 서버를 동일한 상태로 유지할 수 있는지.
+
+
+
+
+POST PUT DELETE PATCH
+- 서버의 있는 데이터를 변경하는 요청 메소드
