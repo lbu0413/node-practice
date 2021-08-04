@@ -1,0 +1,23 @@
+RESTful API
+
+API:
+- 사용하는 사람들이 쉽게 쓸 수 있는 인터페이스, 함수들
+- 서버 입장에서 API란, 클라이언트가 사용할 수 있는 URL 같은 것.
+
+REST:
+Representational State Transfer
+- Software Architectural Style
+- Web Service Guidelines
+- 6 Guiding Constrains
+    1. Client-Server architecture
+    2. Statelessness
+    3. Cacheability
+    4. Layered System
+    5. Code on Demand
+    6. Uniform Interface (fundamental to the design of any RESTful system)
+
+Uniform Interface
+- Resource Identification in requests
+- Resource manipulation through representatations
+- Self-descriptive messages
+- Hypermedia as the engine of application state (HATEOAS)
